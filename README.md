@@ -1,4 +1,4 @@
-# Delta-Inductions-Task-1
+# Spider-Algos-Inductions-Task-1
 
 //The raw is formatted better, so check that out if u want// 
 
