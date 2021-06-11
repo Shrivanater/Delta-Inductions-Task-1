@@ -35,5 +35,5 @@ Question 4:
 We loop the algorithm T times
   The first loop handles the upper half
   The second loop handles the lower half
-  Each loop prints from left to write, printing the required number of '*'s, then ' 's, then '*'s again
+  Each loop prints from left to right, printing the required number of '*'s, then ' 's, then '*'s again
   
