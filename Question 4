@@ -1,0 +1,65 @@
+#include<iostream>
+
+using namespace std;
+
+const int Num = 500;
+
+int main(){
+    
+    int T, N[Num], i, j, k;
+    
+    cin >> T;
+    
+    for(i = 0; i < T; i++){
+        cin >> N[i];    
+    }
+    
+    for(i = 0; i < T; i++){
+        
+        if(i != 0)
+            cout << endl;
+        
+        for(k = 0; k < N[i]; k++)
+            cout << "*";
+        
+        cout << endl;
+        
+        for(j = 0; j < N[i]/2; j++){
+            
+            for(k = j; k < N[i]/2; k++){
+                cout << "*";
+            }
+            for(k = 0; k < 2*j + 1; k++){
+                cout << " ";
+            }
+            
+            for (k = j; k < N[i]/2; k++){
+                cout << "*";
+            }
+                
+            cout << "\n";    
+        }
+        
+        for(j = 0; j < N[i]/2 - 1; j++){
+            
+            for(k = 0; k < j + 2; k++){
+                cout << "*";
+            }
+            
+            for(k = 0; k < 2*(N[i]/2 - j - 1) - 1; k++){
+                cout << " ";
+            }
+                
+            for (k = 0; k < j + 2; k++){
+                cout << "*";
+            }
+            
+            cout << endl;    
+        }
+        
+        for(k = 0; k < N[i]; k++)
+            cout << "*";        
+    
+    }
+
+}
