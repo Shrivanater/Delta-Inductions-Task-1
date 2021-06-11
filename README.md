@@ -1,5 +1,7 @@
 # Delta-Inductions-Task-1
 
+//The raw is formatted better, so check that out if u want// 
+
 Question 1:
 First I check if the number is all 1s or all 0s, since we can't find the binary number greater than or less than the given number respectively
   If it's all 1s or 0s, it prints "-1" and exits.
