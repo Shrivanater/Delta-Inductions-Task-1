@@ -3,8 +3,8 @@
 //The raw is formatted better, so check that out if u want// 
 
 Question 1:
-First I check if the number is all 1s or all 0s, since we can't find the binary number greater than or less than the given number respectively
-  If it's all 1s or 0s, it prints "-1" and exits.
+First I check if the number is all 1s, all 0s or a 1 followed by all 0s, since we can't find the binary numbers greater than or less than the given number with the same length.
+  If it satisfies any of these conditions, it prints "-1" and exits.
   
 If the right-most digit is 1:
   to decrement, change the 1 to 0
