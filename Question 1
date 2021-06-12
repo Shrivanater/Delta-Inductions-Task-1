@@ -20,7 +20,7 @@ int main(){
             count1++;
     }
     
-    if(count0 == l || count1 == l){
+    if(count0 == l || count1 == l  || (count1 == 1 && count0 == l-1 && bin[0] == '1')) {
         cout << -1;
         exit(0);
     }
